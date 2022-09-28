@@ -4,13 +4,19 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%; /* Normally 100% is 16 px */
+  font-size: 100%; /* Normally 100% is 16 px */
+  font-family: "Rubik", sans-serif;
 }
 .parent {
-  font-size: 75px;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
 }
 .child {
   width: 28%;
+}
+.box {
+}
+img {
+  height: 100%;
 }
