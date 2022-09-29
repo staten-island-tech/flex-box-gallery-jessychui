@@ -6,17 +6,34 @@ body,
   box-sizing: border-box;
   font-size: 100%; /* Normally 100% is 16 px */
   font-family: "Rubik", sans-serif;
+  background-color: rgb(243, 243, 243);
 }
 .parent {
   font-size: 3rem;
   display: flex;
   justify-content: center;
+  color: rosybrown;
+  margin-top: 15px;
 }
 .child {
   width: 28%;
 }
-.box {
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  justify-content: space-around;
+  padding: 0px;
 }
-img {
-  height: 100%;
+
+.item {
+  background: rgb(251, 198, 198);
+  padding: 5px;
+  height: 150px;
+  width: 200px;
+  margin-top: 40px;
+  text-align: center;
+  color: lightcoral;
+  font-size: 25px;
+  line-height: 35px;
 }
