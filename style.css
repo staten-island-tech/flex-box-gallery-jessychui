@@ -21,24 +21,24 @@ body,
 .container {
   display: flex;
   flex-flow: row wrap;
-  gap: 15px;
-  justify-content: space-around;
-  padding: 0px;
+  gap: 40px;
+  justify-content: space-evenly;
+  padding: 10px;
+  line-height: 150px;
 }
 
-.item {
+.box {
   background: rgb(251, 198, 198);
   padding: 5px;
-  height: 150px;
-  width: 200px;
   margin-top: 40px;
   text-align: center;
   color: lightcoral;
   font-size: 25px;
   line-height: 35px;
+  font-size: 200%;
 }
 
 img {
-  height: 100px;
-  margin: 40px;
+  height: 380px;
+  margin: 25px;
 }
