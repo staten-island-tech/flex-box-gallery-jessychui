@@ -2,21 +2,26 @@ html,
 body,
 * {
   padding: 0;
-  margin: 0;
+  margin: 5px;
   box-sizing: border-box;
-  font-size: 100%; /* Normally 100% is 16 px */
+  font-size: 100%;
   font-family: "Rubik", sans-serif;
-  background-color: rgb(243, 243, 243);
+  background-image: url(pinkcheckers.jpg);
 }
 .parent {
-  font-size: 3rem;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
-  color: rosybrown;
-  margin-top: 15px;
+  color: rgb(221, 113, 113);
+  margin-top: 10px;
+  background-color: rgb(253, 211, 211);
+  margin: 50px;
+  border-radius: 15px;
 }
-.child {
-  width: 28%;
+p {
+  font-size: 150%;
+  text-align: center;
+  color: rgb(221, 113, 113);
 }
 .container {
   display: flex;
@@ -25,20 +30,28 @@ body,
   justify-content: space-evenly;
   padding: 10px;
   line-height: 150px;
+  
 }
 
 .box {
   background: rgb(251, 198, 198);
   padding: 5px;
   margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
   color: lightcoral;
   font-size: 25px;
   line-height: 35px;
   font-size: 200%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px rgba(226, 150, 150, 0.912);
+  
+  background-color: rgb(255, 230, 230);
 }
 
 img {
   height: 380px;
-  margin: 25px;
+  margin: 20px;
+  border-radius: 15px;
 }
