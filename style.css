@@ -1,12 +1,12 @@
-html, body, {
+html, body, * {
   padding: 0;
   margin: 5px;
   box-sizing: border-box;
   font-size: 100%;
   font-family: "Rubik", sans-serif;
-  background-image: url(pinkcheckers.jpg);
 }
 .parent {
+  background-image: url(pinkcheckers.jpg);
   font-size: 5rem;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ p {
   line-height: 150px;
   
 }
-
+j
 .box {
   background: rgb(251, 198, 198);
   padding: 5px;
