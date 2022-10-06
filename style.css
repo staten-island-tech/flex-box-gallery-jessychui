@@ -1,6 +1,4 @@
-html,
-body,
-* {
+html, body, {
   padding: 0;
   margin: 5px;
   box-sizing: border-box;
@@ -17,6 +15,7 @@ body,
   background-color: rgb(253, 211, 211);
   margin: 50px;
   border-radius: 15px;
+  
 }
 p {
   font-size: 150%;
@@ -46,7 +45,6 @@ p {
   border-radius: 15px;
   box-sizing: border-box;
   box-shadow: 10px 10px rgba(226, 150, 150, 0.912);
-  
   background-color: rgb(255, 230, 230);
 }
 
