@@ -22,6 +22,7 @@ p {
   text-align: center;
   color: rgb(221, 113, 113);
 }
+
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -31,7 +32,7 @@ p {
   line-height: 150px;
   
 }
-j
+
 .box {
   background: rgb(251, 198, 198);
   padding: 5px;
