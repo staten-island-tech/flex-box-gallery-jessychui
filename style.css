@@ -11,12 +11,18 @@ html, body, * {
   display: flex;
   justify-content: center;
   color: rgba(226, 88, 88, 0.905);
-  margin: 30px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 15px;
   background-color: rgb(253, 211, 211);
   border-radius: 15px;
   text-align: center;
-  box-sizing: border-box;
-  box-shadow: box-shadow: 0 0 5px 5px red;
+}
+
+button:hover {
+  color: rgb(123, 20, 20);
+  transition: 250ms;
 }
 
 .subheader {
@@ -36,7 +42,8 @@ html, body, * {
 
 .box {
   background: rgb(251, 198, 198);
-  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 40px;
   margin-bottom: 20px;
   width: 500px;
@@ -48,6 +55,7 @@ html, body, * {
   box-sizing: border-box;
   box-shadow: 10px 10px rgba(226, 150, 150, 0.912);
   background-color: rgb(255, 230, 230);
+  
 }
 
 img {
