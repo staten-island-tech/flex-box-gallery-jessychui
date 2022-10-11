@@ -20,9 +20,10 @@ html, body, * {
   text-align: center;
 }
 
-button:hover {
-  color: rgb(123, 20, 20);
-  transition: 250ms;
+
+.parent:hover {
+  color: rgb(199, 52, 52);
+  transition: 850ms;
 }
 
 .subheader {
@@ -55,7 +56,13 @@ button:hover {
   box-sizing: border-box;
   box-shadow: 10px 10px rgba(226, 150, 150, 0.912);
   background-color: rgb(255, 230, 230);
+  transition: all 0.5s;
   
+}
+
+.box:hover {
+  transform: scale(1.1);
+  box-shadow: 1.2rem 1.2rem 0.1rem 0.1rem rgba(146, 91, 91, 0.548);
 }
 
 img {
