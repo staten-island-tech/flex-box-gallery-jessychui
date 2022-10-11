@@ -22,7 +22,7 @@ html, body, * {
 
 
 .parent:hover {
-  color: rgb(199, 52, 52);
+  color: rgba(173, 56, 56, 0.875);
   transition: 850ms;
 }
 
@@ -49,15 +49,14 @@ html, body, * {
   margin-bottom: 20px;
   width: 500px;
   text-align: center;
-  color: lightcoral;
+  color: rgb(176, 48, 48);
   line-height: 35px;
   font-size: 200%;
   border-radius: 15px;
   box-sizing: border-box;
-  box-shadow: 10px 10px rgba(226, 150, 150, 0.912);
+  box-shadow: 10px 10px rgba(201, 130, 130, 0.912);
   background-color: rgb(255, 230, 230);
-  transition: all 0.5s;
-  
+  transition: 0.5s;
 }
 
 .box:hover {
@@ -74,5 +73,5 @@ img {
 p {
   font-size: 75%;
   text-align: center;
-  color: rgb(221, 113, 113);
+  color: rgb(200, 70, 70);
 }
