@@ -31,6 +31,11 @@ html, body, * {
   text-align: center;
   font-size: 1.5rem;
   color:rgba(172, 63, 63, 0.814);
+  transition: 0.5s;
+}
+
+.subheader:hover {
+  text-shadow: 0 0 0.7rem rgba(255, 170, 170, 0.831);
 }
 
 .container {
@@ -68,23 +73,23 @@ html, body, * {
 img {
   height: 400px;
   margin: 15px;
-  border-radius: 10px;
+  border-radius: 40px;
 }
 
 p {
   font-size: 75%;
   text-align: center;
   color: rgb(200, 70, 70);
+  margin-bottom: 5px;
 }
 
-#dance {
+.dance {
   height: 9rem;
   position: relative;
   transition: .25s;
-  
 }
 
-#dance:hover {
-  transform: scale(1.2)
-  
+.dance:hover {
+  transform: scale(1.2);
 }
+
