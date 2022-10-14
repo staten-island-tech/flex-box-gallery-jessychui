@@ -97,5 +97,6 @@ p {
 
 .dance:hover {
   transform: scale(1.2);
+  box-shadow: 0 0;
 }
 
