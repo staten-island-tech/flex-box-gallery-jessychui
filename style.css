@@ -63,11 +63,13 @@ html, body, * {
   box-shadow: 10px 10px rgba(201, 130, 130, 0.912);
   background-color: rgb(255, 230, 230);
   transition: 0.5s;
+  filter: grayscale(25%);
 }
 
 .box:hover {
   transform: scale(1.1);
   box-shadow: 1.2rem 1.2rem 0.1rem 0.1rem rgba(146, 91, 91, 0.548);
+  filter:grayscale(0%);
 }
 
 img {
@@ -79,7 +81,8 @@ img {
 
 img:hover {
   border-radius: 20px;
-  box-shadow: 0 0 1rem 0.6rem rgba(197, 158, 158, 0.368);;
+  box-shadow: 0 0 1rem 0.6rem rgba(232, 131, 131, 0.368);
+  
 }
 
 p {
