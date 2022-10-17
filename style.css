@@ -103,3 +103,57 @@ p {
   box-shadow: 0 0;
 }
 
+
+
+#monkey {
+  box-shadow: 0 0 0 0;
+  transition: 0s;
+  border-radius: 20px;
+}
+
+#monkey:hover {
+  animation: bounce-travel 2s infinite linear alternate;
+  
+}
+
+@keyframes bounce-travel {
+  0% {
+    transform: translateX(0rem);
+    left: 10%;
+  }
+  25% {
+    transform: translateX(5rem);
+    left: 15%;
+  }
+  50% {
+    transform: translateX(0rem);
+    left: 20%;
+  }
+  75% {
+    transform: translateX(5rem);
+    left: 25%;
+  }
+  100% {
+    transform: translateX(0rem);
+    left: 30%;
+  }
+}
+
+#monkey2 {
+  box-shadow: 0 0 0 0;
+  transition: 0s;
+  border-radius: 20px;
+}
+
+#monkey2:hover {
+  animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    left: 50%;
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
