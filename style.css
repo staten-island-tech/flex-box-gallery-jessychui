@@ -184,7 +184,7 @@ p {
 
 @media screen and (max-width: 420px) {
   .parent {
-    font-size: 4rem;
+    font-size: 3.85rem;
     line-height: 8rem;
   }
   .dance {
@@ -195,7 +195,7 @@ p {
     margin-bottom: 8px 
   }
   .box {
-    width: 360px;
+    width: 345px;
     margin: 10px
   }
   img {
